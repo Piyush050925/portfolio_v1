@@ -219,8 +219,8 @@ body.dark-mode .social-icons a {
 /* Footer */
 .footer {
   text-align: center;
-  padding: 20px;
-  font-size: 20px;
+  padding: 10px;
+  font-size: 16px;
   text-shadow: 0px 3px 6px #00000066;
 }
 
@@ -228,4 +228,91 @@ body.dark-mode .social-icons a {
 @font-face {
   font-family: 'Bookman Old Style';
   src: url('assets/fonts/BOOKOS.TTF') format('truetype');
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .nav-links {
+    gap: 60px;
+  }
+
+  .hero-section h1 {
+    font-size: 60px;
+  }
+
+  .hero-section p {
+    font-size: 30px;
+  }
+
+  .social-icons.black-icons,
+  .social-icons.white-icons {
+    gap: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    align-items: center;
+    gap: 20px;
+  }
+
+  .nav-links {
+    align-items: center;
+    gap: 20px;
+  }
+
+  .nav-links a {
+    margin-right: 0;
+    font-size: 22px;
+  }
+
+  .hero-section h1 {
+    font-size: 40px;
+  }
+
+  .hero-section p {
+    font-size: 24px;
+  }
+
+  .social-icons.black-icons,
+  .social-icons.white-icons {
+    gap: 40px;
+  }
+
+  .social {
+    height: 40px;
+    width: 40px;
+  }
+
+  .footer {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section h1 {
+    font-size: 30px;
+  }
+
+  .hero-section p {
+    font-size: 20px;
+  }
+
+  .nav-links a {
+    font-size: 18px;
+  }
+
+  .social-icons.black-icons,
+  .social-icons.white-icons {
+    gap: 20px;
+  }
+
+  .social {
+    height: 30px;
+    width: 30px;
+  }
+
+  .footer {
+    font-size: 14px;
+  }
 }
