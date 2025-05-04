@@ -14,7 +14,8 @@
 /* Body styles */
 body {
   height: 100vh;
-  font-family: 'Bookman Old Style', serif;
+  /* font-family: 'Bookman Old Style', serif; */
+  font-family: "Yrsa", serif;
   display: flex;
   flex-direction: column;
   background: var(--bg-light-color);
@@ -315,4 +316,17 @@ body.dark-mode .social-icons a {
   .footer {
     font-size: 14px;
   }
+}
+
+.main {
+  padding: 20px;
+}
+
+.main h2 {
+  position: relative;
+}
+
+.main h2 span {
+  position: absolute;
+  right: 10px;
 }
