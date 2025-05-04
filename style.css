@@ -13,7 +13,7 @@
 
 /* Body styles */
 body {
-  height: 100vh;
+  height: 100dvh;
   /* font-family: 'Bookman Old Style', serif; */
   font-family: "Yrsa", serif;
   display: flex;
