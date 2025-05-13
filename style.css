@@ -216,9 +216,24 @@ body.dark-mode .social-icons a {
   color: #303030;
 }
 
+.info {
+  padding: 10px;
+}
+
+.pic {
+  display: flex;
+  width: 200px;
+  height: 200px;
+}
+
+.pic img {
+  width: 200px;
+  height: 200px;
+}
 
 /* Footer */
 .footer {
+  position: sticky;
   text-align: center;
   padding: 10px;
   font-size: 16px;
@@ -322,8 +337,16 @@ body.dark-mode .social-icons a {
   padding: 20px;
 }
 
+.main-1 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .main h2 {
   position: relative;
+  font-size: 20px;
 }
 
 .main h2 span {
